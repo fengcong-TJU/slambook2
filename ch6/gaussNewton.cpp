@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
   for (int i = 0; i < N; i++) {
     double x = i / 100.0;
     x_data.push_back(x);
-    y_data.push_back(exp(ar * x * x + br * x + cr) + rng.gaussian(w_sigma * w_sigma));
+    y_data.push_back(exp(ar * x * x + br * x + cr) + srng.gaussian(w_sigma * w_sigma));
   }
 
   // 开始Gauss-Newton迭代
