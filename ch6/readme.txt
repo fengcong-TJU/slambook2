@@ -4,3 +4,5 @@ git clone https://github.com/RainerKuemmerle/g2o.git
 安装fmt，release版本9.1，太高可能会报错。
 
 以上的文件都下载好后，先安装fmt然后再安装g2o
+
+Ceres的使用说明参考ceres-solver.org
