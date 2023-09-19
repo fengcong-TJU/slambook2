@@ -4,6 +4,7 @@ project(ch6)
 set(CMAKE_BUILD_TYPE Release)
 #ceres-solver2.2版本后需要c++17标准
 set(CMAKE_CXX_FLAGS "-std=c++17 -O3")
+#set(CMAKE_CXX_STANDARD 17)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
